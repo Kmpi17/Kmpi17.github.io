@@ -1,0 +1,94 @@
+
+
+
+/* Features */
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(29, 185, 84, 0.3);
+}
+
+/* Typography */
+h1, h2, h5 {
+  color: #ffffff;
+}
+.text-muted {
+  color: #bbbbbb !important;
+}
+
+/* Buttons */
+.btn-success {
+  background-color: #1db954;
+  border: none;
+}
+.btn-success:hover {
+  background-color: #18a64e;
+}
+
+/* Ampliar secciones */
+section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+/* Ajuste de imágenes */
+img.img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Títulos de secciones */
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+
+#download ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+#download .btn-dark:hover {
+  background-color: #111;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('https://images.unsplash.com/photo-1590080875985-96c67aa3d364') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+  color: white;
+}
+.hero-background {
+  background: radial-gradient(circle at center, rgba(0,0,0,0.2), transparent 70%);
+}
+
+.wave {
+  display: block;
+  height: 100px;
+  pointer-events: none;
+}
+
+.hero h1, .hero p, .hero a {
+  z-index: 3;
+}
+
+   /* Footer texto blanco */
+    footer small {
+      color: #fff !important;
+    }
+
+/* Animate.css (si no lo tienes ya) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
